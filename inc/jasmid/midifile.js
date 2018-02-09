@@ -11,6 +11,7 @@ function MidiFile(data) {
 			'length': length,
 			'data': stream.read(length)
 		};
+		console.log(id);
 	}
 	
 	var lastEventTypeByte;
